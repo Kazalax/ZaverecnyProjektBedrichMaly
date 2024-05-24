@@ -1,0 +1,14 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - ok
+2. Dodržení principů SRP a SoC - Metoda vypisZakazniky() by mohla hodnotu spíše vracet (return) než vypisovat. Jde buď vracet String či přímo ArrayList.
+3. Vhodný výběr datových typů - ok
+4. Formátování kódu - ok
+5. Duplicitní kód a nekonečné cykly - ok
+6. Validace vstupních dat - Chybí. V zadání byla zmíněna validace toho, zda uživatel při vytváření zákazníka nezadal prázdné jméno. Dále lze nad rámec zadání rozšířit o validaci prázdného příjmení, nečíselnosti (if) a nezápornosti (try-catch) věku a formátu telefonního čísla.
+                            Nejlépe tak, aby se uživatel mohl po zadání nesprávného vstupu hned vrátit k zadávání právě toho vstupu. 
+7. Logičnost a složitost - V metodě vypisZakazniky() není nutné volat metodu toString(), ta se zavolá automaticky.
+8. Komentáře - ok
+9. Celkové hodnocení - Kód je dobře strukturovaný. Doporučil bych ovšem více používat návratové hodnoty a implementovat validaci vstupních dat.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
